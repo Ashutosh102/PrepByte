@@ -9,7 +9,11 @@
 
 **PrepByte** is your intelligent, real-time AI interview assistant built to empower candidates and help companies scale interview processes. With a dynamic, voice-interactive interface, PrepByte offers personalized interview experiences, real-time analysis, and detailed feedback, all powered by advanced AI.
 
-![PrepByte Preview](./public/prepbyte-preview.png)
+### UI Preview
+![PrepByte Preview](./public/all-devices-black.png)
+
+### Log-in Preview
+![PrepByte log-in Preview](./public/all-devices-white.png)
 
 Whether you're preparing for your dream role or automating hiring workflows, PrepByte brings the future of interviews to your fingertips.
 
@@ -54,7 +58,7 @@ Whether you're preparing for your dream role or automating hiring workflows, Pre
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/your-username/prepbyte.git
+   git clone https://github.com/your-username/PrepByte.git
    cd prepbyte
    ```
 
@@ -112,6 +116,8 @@ prepbyte/
 4. Gemini AI evaluates performance across metrics
 5. The system returns structured feedback
 
+![Vapi Preview](./public/vapi_interface.png)
+
 ## 🔧 Customization Guide
 
 ### Add a New Interview Role
@@ -141,6 +147,17 @@ prepbyte/
 - 🧩 ATS Integration
 - 📱 Mobile App (iOS + Android)
 - 🎯 Custom Templates by Role/Industry
+- 🔄 Real-time Collaboration for Interviewers
+- 🛠️ Advanced AI Feedback & Scoring
+- 🔒 Enhanced Security & Privacy Features
+- 📈 Performance Analytics & Reporting
+
+## UI Responsiveness
+![PrepByte desktop](./public/desktop.png)
+![PrepByte laptop](./public/laptop.png)
+![PrepByte tablet](./public/tablet-black.png)
+![PrepByte mobile](./public/mobile-black.png)
+
 
 ## 🤝 Contributing
 
