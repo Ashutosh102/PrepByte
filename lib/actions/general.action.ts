@@ -154,11 +154,12 @@ export async function getLatestInterviews(
 
   const interviews = interviewsSnapshot.docs.map((doc) => {
     const data = doc.data();
-    
+    const createdAt = data.createdAt;
+
     return {
       id: doc.id,
       ...data,
-      createdAt: data.createdAt?.toDate().toISOString(), // Convert Firestore Timestamp to ISO string
+      createdAt: createdAt instanceof Date ? createdAt.toISOString() : createdAt?.toDate?.().toISOString(), // Convert Firestore Timestamp to ISO string
     };
   });
 
