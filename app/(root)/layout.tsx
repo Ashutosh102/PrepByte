@@ -17,7 +17,7 @@ const RootLayout = async ({children }: {children: ReactNode}) => {
   const userAvatar = user?.photoURL || "/user-avatar.jpg";
 
   return (
-    <div className="root-layout">
+    <div className="root-layout" style={{ fontFamily: 'Poppins, sans-serif' }}>
       <nav className='w-full flex justify-between items-center'>
         <Logo link />
         

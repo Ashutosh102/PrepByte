@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 @plugin "tailwindcss-animate";
 
@@ -22,13 +23,13 @@
   --color-dark-200: #27282f;
   --color-dark-300: #242633;
 
-  --font-poppins: "Poppins", sans-serif;
+  --font-poppins: 'Poppins', sans-serif;
 
   --bg-pattern: url("/pattern.png");
 }
 
 :root {
-  font-family: --font-poppins;
+  font-family: 'Poppins', sans-serif;
   --radius: 0.625rem;
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
